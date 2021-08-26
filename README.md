@@ -1,6 +1,12 @@
 ### About
 
 - This is a variant of scrapy-googlenews web crawler where sentiment analysis is added using TextBlob library.
+- What are library used:
+    - scrapy
+    - newspaper
+    - nltk
+    - TextBlob
+
 - Web crawler is still built using scrapy. 
 - The parameter need to be passed inside the code (i.e. **google_sentiment\google_sentiment\spiders\sentiment.py**) from line 14 to line 19 instead of through command line.
 ```
